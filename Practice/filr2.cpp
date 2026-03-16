@@ -14,4 +14,5 @@ void show_pplar(polar dapos){
 	const double rad_to_deg=57.29577951;
 	cout<< "distance = "<<dapos.distance;
 	cout<< "angle = "<<dapos.angle*rad_to_deg;
-}	cour <<"degree\n";
+	cout <<"degree\n";
+}
