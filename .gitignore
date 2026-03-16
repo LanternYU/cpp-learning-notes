@@ -55,4 +55,4 @@ Thumbs.db
 *.swp
 *.tmp
 *.log
-#.txt
+*.txt
