@@ -1,0 +1,57 @@
+# ==========================================
+# C++ 学习者专用 .gitignore 模板
+# ==========================================
+
+# --- 编译输出 (Executables) ---
+# 过滤掉 Windows 下的 .exe 和 Linux/macOS 下的无后缀或 .out 执行文件
+*.exe
+*.out
+*.app
+*.pyd
+
+# --- 中间对象文件 (Object Files) ---
+# 编译器生成的临时文件，不需要上传
+*.o
+*.obj
+*.slo
+*.lo
+
+# --- 静态库与动态库 (Libraries) ---
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# --- 调试文件 (Debug Files) ---
+# 调试产生的符号表等，体积巨大且无意义
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.dSYM/
+
+# --- 构建目录 (Build Directories) ---
+# 如果你以后学习 CMake，这些目录通常存放编译产物
+[Bb]uild/
+[Bb]in/
+[Ob]j/
+cmake-build-*/
+out/
+
+# --- VS Code 配置文件 ---
+# .vscode 文件夹里包含你个人的编译器路径配置，不建议上传
+# 这样别人克隆你的代码时，可以用他们自己的编译器配置
+.vscode/
+.history/
+*.code-workspace
+
+# --- 操作系统垃圾文件 ---
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+
+# --- 临时文件 ---
+*.swp
+*.tmp
+*.log
